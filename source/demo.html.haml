@@ -1,0 +1,17 @@
+- @title = "Demo"
+.container
+  .row
+    .center-block.col-md-10
+      .demo
+        %h4 official demo
+        #{link_to 'demo.netzke.org', 'http://demo.netzke.org/'} - browse through several demo components and check out their source code.
+        = image_tag 'demo.png'
+        %h4 yanit
+        #{link_to 'Yanit', 'http://yanit.netzke.org/'} - Yet Another (Netzke) Issue Tracker, originally started as a demo app for RubyShift 2011.
+        = image_tag 'yanit.png'
+        %h4 web desktop
+        #{link_to 'Paul Cockrell', 'https://github.com/paulcockrell'} created an awesome prototype of a #{link_to 'Netzke-driven web-desktop.', 'http://netzke-desktop-demo.heroku.com/'}
+        %p
+          The source code is at #{link_to 'GitHub', 'https://github.com/paulcockrell/Netzke-web-desktop' }
+          %em (uses older Netzke 0.7)
+        = image_tag 'web-desktop.png'
