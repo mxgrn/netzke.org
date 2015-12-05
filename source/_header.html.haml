@@ -5,19 +5,18 @@
       %span.icon-bar
       %span.icon-bar
       %span.icon-bar
-    %a.navbar-brand{href: "/", class: 'hidden-xs'}
-      %p NETZKE
+    %a.navbar-brand{href: "/"}
+      %img.logo-icon{src: "/images/logo-icon.png"}
     %ul.nav.navbar-nav.navbar-right
       %li
-        = link_to 'http://twitter.com/netzke' do 
+        = link_to 'http://twitter.com/netzke' do
           %i.fa.fa-twitter
       %li
-        = link_to 'http://gratipay.com/mxgrn' do 
+        = link_to 'http://gratipay.com/mxgrn' do
           %i.fa.fa-gratipay
     .collapse.navbar-collapse
       %ul.nav.navbar-nav
-        %li= link_to 'overview', '/'
         %li= link_to 'demo', '/demo.html'
         %li= link_to 'docs & code', '/docs-n-code.html'
-        %li= link_to 'conference talks', '/talks.html'
+        %li= link_to 'talks', '/talks.html'
         %li= link_to 'community', '/community.html'

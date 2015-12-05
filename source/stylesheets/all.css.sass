@@ -2,12 +2,8 @@
 @import "bootstrap-sprockets"
 @import "font-awesome"
 
-@font-face
-  font-family: Bonzai 
-  src: url(/fonts/bonzai.ttf)
-
 .quote
-  margin-bottom: 30px 
+  margin-bottom: 30px
 
 .navbar
   margin-bottom: 0px
@@ -18,7 +14,7 @@
 .about-netzke
   margin-bottom: 20px
   height: 100%
-  background: linear-gradient(to top right, #B84423, #fa8f6f) 
+  background: linear-gradient(to top right, #B84423, #fa8f6f)
 
   h2, h3
     text-align: center
@@ -29,9 +25,12 @@
   h1
     text-align: center
     color: white
-    font-size: 15vw 
-    font-family: Bonzai 
-    margin-bottom: -3%
+    font-size: 15vw
+    font-family: Bonzai
+
+    img
+      margin: auto
+      width: 60%
 
 .demo img
   width: 100%
@@ -62,35 +61,42 @@
   background-color: #ffab27
   border-color: #fff
 
-.fa 
+.fa
   font-size: 2em
   margin-top: -5px
 
-.navbar-nav > li
-  height: 15px
+.fa-twitter
+  color: #55ACEE
+
+.fa-gratipay
+  color: #663300
+
+.logo-icon
+  margin-top: -5px
+  width: 2em
 
 @media (max-width: 767px)
 
-  .navbar-default .navbar-toggle 
+  .navbar-default .navbar-toggle
+    margin-top: 11px
     float: left
 
   .nav.navbar-nav.navbar-right
     float: right
-    
-    li
-      float: right
-  
-  blockquote
-    margin-bottom: 100px 
 
-  .section-border 
+    li
+      float: left
+
+  blockquote
+    margin-bottom: 100px
+
+  .section-border
     border-top: 1px solid #d3d2d8
     margin-top: 25px
     padding-top: 25px
 
   .section-content
     margin-bottom: 25px
-  
+
   .btn-lg, .btn-group-lg > .btn
     margin-top: 25px
-
