@@ -2,7 +2,7 @@
 .about-netzke
   .container
     %h1
-      %img.img-responsive{src: "/images/full-logo.png"}
+      %img.center-block{src: "/images/full-logo.png"}
     %h2 Client-server components for Web
     %h3 Powered by Sencha Ext JS and Ruby on Rails
     %p
@@ -11,21 +11,23 @@
 .container
   .row
     .col-md-8
-      %blockquote
-        %em I like your [Netzke] concept. If I were to develop a webapp like that, I would use your framework.
-        .pull-right
-          %p
-          %em Matz, creator of the Ruby language, RubyConf Taiwan, 2012
-      %p Netzke is a framework that allows for a beautiful blend of client- and server-side code (JavaScript and Ruby, respectively) into ready-to-use GUI components. It's most useful for creating complex data-rich backend applications with Ruby on Rails on the back end, and Sencha Ext JS in the browser.
-      %h4 reusability
+      .center-quote
+        %em
+          %img.quote-icon{src: "/images/quote.png"}
+          I like your [Netzke] concept. If I were to develop a webapp like that, I would use your framework.
+        %p
+          .pull-right Matz, creator of the Ruby language, RubyConf Taiwan, 2012
+      %h4 What is Netzke
+      %p Netzke is a framework that allows for a beautiful blend of client- and server-side code (JavaScript and Ruby, respectively) into UI components. It's most useful for creating complex data-rich backend applications with Ruby on Rails on the back end, and Sencha Ext JS in the browser.
+      %h4 Reusability
       %p Write a component once - and use it throughout your applications.
-      %h4 composability
+      %h4 Composability
       %p Build new components by combining existing components.
-      %h4 testability
+      %h4 Testability
       %p Testing each component individually makes it much easier to isolate bugs.
-      %h4 extensibility
+      %h4 Extensibility
       %p A Netzke component is a Ruby class represented by an Ext JS component in the browser, and can be easily extended by using object-oriented techniques.
-      %h4 encapsulation
+      %h4 Encapsulation
       %p You (or your fellow developers) barely need to write any JavaScript in order to use existing components.
-      %em Having these at your disposal, you can quickly build amazingly complex RIA without turning your code into a mess.
+      %em.center-quote Having these at your disposal, you can quickly build amazingly complex RIA without turning your code into mess.
     = partial 'section'
