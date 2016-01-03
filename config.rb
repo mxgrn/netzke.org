@@ -72,12 +72,11 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :rsync
-  deploy.host   = 'writelesscode.com'
+  deploy.host   = 'netzke.com'
   deploy.path   = 'www/netzke.org'
 
   # Optional Settings
   deploy.build_before = true
-  # deploy.user  = 'skozlov' # no default
   # deploy.port  = 5309 # ssh port, default: 22
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
