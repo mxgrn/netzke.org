@@ -81,3 +81,5 @@ activate :deploy do |deploy|
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 end
+
+require 'curb'

@@ -1,3 +1,6 @@
+- require 'json'
+- version = JSON.parse(Curl.get("https://rubygems.org/api/v1/versions/netzke/latest.json").body_str)["version"]
+
 .nav.navbar.navbar-default.custom
   .container
     %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
@@ -24,3 +27,4 @@
         %li= link_to 'Blog', 'http://blog.netzke.org'
         %li= link_to 'Talks', '/talks.html'
         %li= link_to 'Community', '/community.html'
+        %li.version-link= link_to "v#{version}", 'https://rubygems.org/gems/netzke'

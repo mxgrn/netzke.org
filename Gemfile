@@ -17,3 +17,5 @@ gem "jquery-middleman"
 gem "font-awesome-middleman"
 
 gem 'middleman-deploy'
+
+gem 'curb'
