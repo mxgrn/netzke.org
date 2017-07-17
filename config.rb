@@ -72,7 +72,7 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :rsync
-  deploy.host   = 'netzke.com'
+  deploy.host   = 'netzke.org'
   deploy.path   = 'www/netzke.org'
 
   # Optional Settings
