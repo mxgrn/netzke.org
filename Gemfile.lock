@@ -43,7 +43,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.8)
     execjs (2.6.0)
-    ffi (1.9.10)
+    ffi (1.11.3)
     font-awesome-middleman (4.4.1)
       middleman-core (~> 3.0)
     haml (4.0.7)
